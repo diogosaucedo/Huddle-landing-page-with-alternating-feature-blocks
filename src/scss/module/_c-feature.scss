@@ -1,0 +1,16 @@
+@use "../base/extends";
+
+.c-feature {
+  @extend %u-display-flex, %u-align-center, %u-justify-space-between;
+
+  width: 125rem;
+  min-height: 42rem;
+  padding: 0 5rem 0 12rem;
+
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem rgba($color: #000000, $alpha: 0.2);
+
+  .c-illustration {
+    width: 40rem;
+  }
+}

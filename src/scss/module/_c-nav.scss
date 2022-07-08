@@ -1,0 +1,19 @@
+@use "../base/extends";
+
+.c-nav {
+  @extend %u-display-flex, %u-align-center;
+
+  width: 125rem;
+  height: fit-content;
+
+  &__list {
+    @extend %u-display-flex, %u-align-center, %u-justify-space-between;
+    width: 100%;
+  }
+
+  .c-logo {
+    &__image {
+      width: 19rem;
+    }
+  }
+}

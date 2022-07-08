@@ -1,0 +1,6 @@
+@use "../base/extends";
+
+.l-main-container {
+  @extend %u-display-flex, %u-direction-column, %u-align-center;
+  width: 100%;
+}

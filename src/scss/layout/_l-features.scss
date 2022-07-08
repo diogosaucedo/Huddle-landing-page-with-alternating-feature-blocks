@@ -1,0 +1,12 @@
+@use "../base/extends";
+
+.l-features {
+  @extend %u-display-flex, %u-direction-column, %u-align-center;
+
+  width: 100%;
+  padding-top: 12rem ;
+
+  .c-feature {
+    margin: 2rem 0;
+  }
+}

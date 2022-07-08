@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- About the project -->
+    <title>Huddle landing page with alternating feature blocks</title>
+    <meta name="author" content="Diogo F. Saucedo" />
+    <meta
+      name="description"
+      content="Frontend Mentor's “Huddle landing page with alternating feature blocks” challenge."
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/main.css" />
+  </head>
+  <body>
+    <main class="l-main-container">
+      <header class="l-hero">
+        <nav class="c-nav">
+          <ul class="c-nav__list">
+            <li class="c-nav__item">
+              <figure class="c-logo"></figure>
+              <img
+                src="./assets/images/logo.svg"
+                alt="Logo Huddle"
+                class="c-logo__image"
+              />
+            </li>
+            <li class="c-nav__item">
+              <button class="c-button">Try It Free</button>
+            </li>
+          </ul>
+        </nav>
+        <div class="l-hero__content">
+          <section class="c-section">
+            <h1 class="c-section__title-1">
+              Build The Community Your Fans Will Love
+            </h1>
+            <p class="c-section__text">
+              Huddle re-imagines the way we build communities. You have a voice,
+              but so does your audience. Create connections with your users as
+              you engage in genuine discussion.
+            </p>
+            <button class="c-button c-button--medium-pink">
+              Get Started For Free
+            </button>
+          </section>
+          <figure class="c-illustration">
+            <img
+              src="./assets/images/illustration-mockups.svg"
+              alt="Image Hero Desktop"
+              class="c-illustration__image"
+            />
+          </figure>
+        </div>
+      </header>
+      <div class="l-features">
+        <div class="c-feature">
+          <section class="c-section">
+            <h2 class="c-section__title-2">Grow Together</h2>
+            <p class="c-section__text">
+              Generate meaningful discussions with your audience and build a
+              strong, loyal community. Think of the insightful conversations you
+              miss out on with a feedback form.
+            </p>
+          </section>
+          <figure class="c-illustration">
+            <img
+              src="./assets/images/illustration-grow-together.svg"
+              alt="Illustration Grow Together"
+              class="c-illustration__image"
+            />
+          </figure>
+        </div>
+        <div class="c-feature">
+          <figure class="c-illustration">
+            <img
+              src="./assets/images/illustration-flowing-conversation.svg"
+              alt="Illustration Flowing Conversation"
+              class="c-illustration__image"
+              alt
+            />
+          </figure>
+          <section class="c-section">
+            <h2 class="c-section__title-2">Flowing Conversations</h2>
+            <p class="c-section__text">
+              You wouldn't paginate a conversation in real life, so why do it
+              online? Our threads have just-in-time loading for a more natural
+              flow.
+            </p>
+          </section>
+        </div>
+        <div class="c-feature">
+          <section class="c-section">
+            <h2 class="c-section__title-2">Your Users</h2>
+            <p class="c-section__text">
+              It takes no time at all to integrate Huddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start chatting immediately.
+            </p>
+          </section>
+          <figure class="c-illustration">
+            <img
+              src="./assets/images/illustration-your-users.svg"
+              alt="Illustration Your Users"
+              class="c-illustration__image"
+            />
+          </figure>
+        </div>
+      </div>
+      <div class="c-invite">
+        <h2 class="c-invite__title">Ready To Build Your Community?</h2>
+        <button class="c-button c-button--large-pink">
+          Get Started For Free
+        </button>
+      </div>
+      <footer class="l-footer">
+        <div class="l-footer__container">
+          <figure class="c-logo">
+            <img
+              src="./assets/images/logo-white.svg"
+              alt="Huddle logo in white"
+              class="c-logo__image"
+            />
+          </figure>
+          <div class="l-footer__main-content">
+            <ul class="c-contacts">
+              <li class="c-contacts__item">
+                <figure class="c-contacts__icon">
+                  <img
+                    src="./assets/images/icon-location.svg"
+                    alt="Icon Location"
+                    class="c-contacts__image"
+                  />
+                </figure>
+                <p class="c-contacts__address">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                </p>
+              </li>
+              <li class="c-contacts__item">
+                <figure class="c-contacts__icon">
+                  <img
+                    src="./assets/images/icon-phone.svg"
+                    alt="Icon Phone"
+                    class="c-contacts__image"
+                  />
+                </figure>
+                <p class="c-contacts__address">+1-543-123-4567</p>
+              </li>
+              <li class="c-contacts__item">
+                <figure class="c-contacts__icon">
+                  <img
+                    src="./assets/images/icon-email.svg"
+                    alt="Icon Email"
+                    class="c-contacts__image"
+                  />
+                </figure>
+                <p class="c-contacts__address">example@huddle.com</p>
+              </li>
+            </ul>
+            <ul class="c-list-link">
+              <li class="c-list-link__item">
+                <a href="#" title="link to About Us" class="c-list-link__anchor"
+                  >About Us</a
+                >
+              </li>
+              <li class="c-list-link__item">
+                <a
+                  href="#"
+                  title="link to Contact Us"
+                  class="c-list-link__anchor"
+                  >What We Do</a
+                >
+              </li>
+              <li class="c-list-link__item">
+                <a href="#" title="link to FAQ" class="c-list-link__anchor"
+                  >FAQ</a
+                >
+              </li>
+              <li class="c-list-link__item">
+                <a href="#" title="link to Career" class="c-list-link__anchor"
+                  >Career</a
+                >
+              </li>
+              <li class="c-list-link__item">
+                <a href="#" title="link to Blog" class="c-list-link__anchor"
+                  >Blog</a
+                >
+              </li>
+              <li class="c-list-link__item">
+                <a
+                  href="#"
+                  title="link to Contact Us"
+                  class="c-list-link__anchor"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+            <div class="c-social-network">
+              <div class="c-social-network__item">
+                <i class="fa-brands fa-facebook-f c-social-network__icon"></i>
+              </div>
+              <div class="c-social-network__item">
+                <i class="fa-brands fa-twitter c-social-network__icon"></i>
+              </div>
+              <div class="c-social-network__item">
+                <i class="fa-brands fa-instagram c-social-network__icon"></i>
+              </div>
+            </div>
+          </div>
+          <p class="c-copyright">
+            &copy; Copyright 2018 Huddle. All rights reserved.
+          </p>
+        </div>
+      </footer>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/3698974dd8.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

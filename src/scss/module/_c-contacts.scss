@@ -1,0 +1,23 @@
+@use "../base/extends";
+
+.c-contacts {
+  width: fit-content;
+
+  font-size: 1.8rem;
+
+  &__item {
+    @extend %u-display-flex;
+    margin: 2rem 0;
+  }
+
+  &__icon {
+    padding-right: 2rem;
+  }
+  &__image {
+    width: 1.8rem;
+  }
+
+  &__address {
+    max-width: 40rem;
+  }
+}

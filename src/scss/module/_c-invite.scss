@@ -1,0 +1,24 @@
+@use "../base/extends";
+@use "../base/colors";
+
+.c-invite {
+  @extend %u-display-flex,
+    %u-direction-column,
+    %u-align-center,
+    %u-justify-center;
+
+  width: 80rem;
+  min-height: 25rem;
+  transform: translateY(35%);
+
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem rgba($color: #000000, $alpha: 0.2);
+  background-color: colors.$white;
+
+  &__title {
+    padding: 0 0 3rem 0;
+
+    color: colors.$very-dark-cyan;
+    font-size: 3.2rem;
+  }
+}

@@ -1,0 +1,39 @@
+@use "../base/colors";
+
+.c-button {
+  width: 20rem;
+  height: 5rem;
+
+  border-radius: 10rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba($color: #000000, $alpha: 0.2);
+  background-color: colors.$white;
+  font-size: 1.4rem;
+  color: colors.$very-dark-cyan;
+  font-weight: 700;
+  cursor: pointer;
+
+  &--medium-pink {
+    width: 27rem;
+
+    background-color: colors.$pink;
+    color: colors.$white;
+
+    &:active {
+      background-color: lighten(colors.$pink, $amount: 10%);
+    }
+  }
+
+  &--large-pink {
+    width: 40rem;
+    height: 8rem;
+
+    background-color: colors.$pink;
+    color: colors.$white;
+    font-size: 1.8rem;
+
+    &:active {
+      background-color: lighten(colors.$pink, $amount: 10%);
+    }
+  }
+}

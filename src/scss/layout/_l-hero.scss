@@ -1,0 +1,29 @@
+@use "../base/extends";
+@use "../base/colors";
+
+.l-hero {
+  @extend %u-display-flex,
+    %u-align-center,
+    %u-direction-column,
+    %u-justify-space-between;
+
+  width: 100%;
+  min-height: 70rem;
+  padding: 5rem 0;
+
+  background-color: colors.$very-pale-cyan;
+  background-image: url(../../assets/images/bg-hero-desktop.svg);
+
+  &__content {
+    @extend %u-display-flex,
+      %u-flex-wrap,
+      %u-justify-space-between,
+      %u-align-center;
+
+    width: 125rem;
+
+    .c-illustration {
+      width: 68rem;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+@use "../base/extends";
+
+.c-list-link {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(3, 1fr);
+  grid-auto-columns: 1fr;
+  gap: 1rem;
+
+  
+  padding: 2rem 0;
+  width: 40rem;
+  height: 14rem;
+
+  cursor: pointer;
+
+  &__item {
+    font-size: 1.8rem;
+
+    &:active {
+      text-decoration: underline;
+    }
+  }
+  
+  &__anchor {
+    color: inherit;
+    text-decoration: none;
+
+    &:visited {
+      color: inherit;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+@use "../base/base";
+@use "../base/colors";
+
+.c-social-network {
+  @extend %u-display-flex, %u-justify-space-between;
+
+  width: 12rem;
+  padding: 2rem 0;
+
+  cursor: pointer;
+
+  &__item {
+    @extend %u-display-flex, %u-align-center, %u-justify-center;
+
+    width: 3rem;
+    height: 3rem;
+
+    border: 1px solid colors.$white;
+    border-radius: 50%;
+
+    &:active {
+      border-color: colors.$pink;
+
+      &:nth-child(n) {
+        color: colors.$pink;
+      }
+    }
+  }
+  
+  &__icon {
+    font-size: 1.4rem;
+  }
+}
